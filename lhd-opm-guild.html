@@ -19,7 +19,8 @@
     </head>
 
     <body>
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <!-- RESPONSIVE NAVBAR -->
+        <nav class="navbar navbar-expand-md navbar-dark sticky-top bg-dark">
             <a class="navbar-brand" href="#sec1">
                 <img src="assets/omc_logo.png" width="35" height="30" alt="Site logo">
                 Local Hack Day
@@ -41,94 +42,183 @@
                 </ul>
             </div>
         </nav>
-
+        <!-- DEBUT CONTAINER -->
         <div class="container">
 
+            <!-- WELCOME -->
             <div class="row">
                 <div class="col text-center">
-                    <div class="row top-buffer-scp"></div>
-                    <div class="introduction " id="sec1">
-                        <h1 class="title">LOCAL HACK DAY IS HERE !</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia natus aliquam iusto autem, nostrum sit nisi recusandae commodi eligendi magni, quasi, iure corporis sapiente quo dolores.</p>
+                    <div class="introduction" id="sec1">
+                        <h1>LOCAL HACK DAY IS HERE</h1>
+                        <p class="txt" style="text-align: center; font-weight: bolder;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia natus aliquam iusto autem, nostrum sit nisi recusandae commodi eligendi magni, quasi, iure corporis sapiente quo dolores.</p>
                     </div>
                 </div>
             </div>
 
-            <div class="row top-buffer"></div>
+            <div class="box"></div>
 
-            <div class="row purple-theme">
-                <div class="col-lg-4 col-md-6 text-center ">
-                    <div class="row top-buffer"></div>
-                    <div class="card shadow p-3 mb-5 bg-white rounded">
-                        <!--Card image-->
-                        <div class="view overlay" style="text-align: center;">
-                            <img src="assets/om.png" class="card-img-top"alt="" style="height: 50%; width: 60%;">
-                            <a href="#">
-                                <div class="mask rgba-white-slight"></div>
-                            </a>
+            <!-- DEBUT SEC WHAT IS LHD ? -->
+            <!-- <div class="section1" > -->
+            <div class="row padrow" id="sec1">
+                <!--Grid column-->
+                    <div class="col-lg-4 col-md-12 mb-4">
+                        <!--Card-->
+                        <div class="card">
+                            <!--Card image-->
+                            <div class="view overlay" style="text-align: center;">
+                             <img src="assets/om.png" class="card-img-top"alt="" style="height: 50%; width: 60%;">
+                             <a href="#">
+                                 <div class="mask rgba-white-slight"></div>
+                             </a>
+                            </div>
+                            <!--Card content-->
+                            <div class="card-body">
+                             <!--Title-->
+                             <h4 class="card-title title">Open Minds Club</h4>
+                             <!--Text-->
+                              <p class="card-text txt">Open Minds Club est un club scientifique estudiantin de l'USTHB créé en Mars 2009, son but premier est de promouvoir l'esprit de partage entre les étudiants et la philosophie Libre Open Source auprès des étudiants de l'USTHB et à l’extérieur , et ce par le biais d'organisation d’événements et de manifestations scientifiques, notre credaux : "Ce qui ne se partage pas se perd"</p>
+                            </div>
                         </div>
-                        <!--Card content-->
-                        <div class="card-body">
-                            <!--Title-->
-                            <h4 class="card-title title">Open Minds Club</h4>
-                            <!--Text-->
-                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia natus aliquam iusto autem, nostrum sit nisi recusandae commodi eligendi magni, quasi, iure corporis sapiente quo dolores. Fugit ad quasi rerum.</p>
-                        </div>
+                        <!--/.Card-->
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 text-center">
-                    <div class="row top-buffer"></div>
-                    <div class="card">
-                        <!--Card image-->
-                        <div class="view overlay" style="text-align: center;">
-                            <img src="assets/mlh.png" class="card-img-top"alt="" style="height: 50%; width: 60%;">
-                            <a href="#">
-                                <div class="mask rgba-white-slight"></div>
-                            </a>
+                    <!-- END COLUMN -->
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-12 mb-4">
+                        <!--Card-->
+                        <div class="card">
+                            <!--Card image-->
+                            <div class="view overlay" style="text-align: center;">
+                             <img src="assets/mlh.png" class="card-img-top"alt="" style="height: 50%; width: 60%;">
+                             <a href="#">
+                                 <div class="mask rgba-white-slight"></div>
+                             </a>
+                            </div>
+                            <!--Card content-->
+                            <div class="card-body">
+                             <!--Title-->
+                             <h4 class="card-title title">Majors League Hacking</h4>
+                             <!--Text-->
+                              <p class="card-text txt">Major League Hacking (MLH) est une ligue officiel d’organisation de hackathon pour étudiants fondée en 2013 par Mike Swift et Jonathan Gottfried. Chaque année, MLH organise plus de 200 hackathons et supporte plus de 8000 projets pour plus de 65 000 étudiants à travers le monde et le local hack day en fait partie.</p>
+                            </div>
                         </div>
-                        <!--Card content-->
-                        <div class="card-body">
-                            <!--Title-->
-                            <h4 class="card-title title">Majors League Hacking</h4>
-                            <!--Text-->
-                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia natus aliquam iusto autem, nostrum sit nisi recusandae commodi eligendi magni, quasi, iure corporis sapiente quo dolores. Fugit ad quasi rerum.</p>
-                        </div>
+                        <!--/.Card-->
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 text-center">
-                    <div class="row top-buffer"></div>
-                    <div class="card">
-                        <!--Card image-->
-                        <div class="view overlay" style="text-align: center;">
-                            <img src="assets/go.png" class="card-img-top"alt="" style="height: 50%; width: 60%;">
-                            <a href="#">
-                                <div class="mask rgba-white-slight"></div>
-                            </a>
+                    <!-- END COLUMN -->
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-12 mb-4">
+                        <!--Card-->
+                        <div class="card">
+                            <!--Card image-->
+                            <div class="view overlay" style="text-align: center;">
+                             <img src="assets/go.png" class="card-img-top"alt="" style="height: 50%; width: 60%;">
+                             <a href="#">
+                                 <div class="mask rgba-white-slight"></div>
+                             </a>
+                            </div>
+                            <!--Card content-->
+                            <div class="card-body">
+                             <!--Title-->
+                             <h4 class="card-title title">Global Oportunities</h4>
+                             <!--Text-->
+                              <p class="card-text txt">Global opportunities (accompagne/ est l'acompagnant/ est l'acompagnateur) des Algériens pour trouver les meilleures opportunités au niveau  locales et international en ce qui concerne les bourses,  stages,  programmes d’échange,  conférences,  ateliers et offres d'emplois; Ces services sont gratuits ou à faible coût.</p>
+                            </div>
                         </div>
-                        <!--Card content-->
-                        <div class="card-body">
-                            <!--Title-->
-                            <h4 class="card-title title">Global Oportunities</h4>
-                            <!--Text-->
-                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia natus aliquam iusto autem, nostrum sit nisi recusandae commodi eligendi magni, quasi, iure corporis sapiente quo dolores. Fugit ad quasi rerum.</p>
-                        </div>
+                        <!--/.Card-->
                     </div>
-                </div>
+                <!-- END COLUMN -->
             </div>
+            <!-- </div> -->
+            <!-- FIN SEC WHAT IS LHD ? -->
 
-            <div class="row top-buffer"></div>
+            <div class="box"></div>
 
+            <!-- SECTION 2   still working on it -->
             <div class="row">
-                <div class="col-md-12">
-                    <img src="assets/banner.png"  style="height: 100%; width: 100%;">
+               <div class="section2 shadow">
+                    <img src="assets/lhdevent.jpg" alt="image" class="img_sec2">
                 </div>
             </div>
 
-            <div class="row top-buffer"></div>
+            <div class="box"></div>
+            <div class="box"  id="sec2"></div>
 
-            <div class="row top-buffer"></div>
+            <!-- <div class="row" style="width: 100%;"> -->
+                <!-- PRESENTATION 1 -->
+                <div class="card mb-3 shadow " style="width: 100%; height: fit-content; max-height: 450px; overflow-y: scroll; overflow-x: hidden;">
+                    <div class="row g-0" style="padding-top: 2.5%;">
+                        <div class="col-lg-7 col-md-12">
+                        <div class="card-body" style="height: 100%; width: 100%;">
+                          <h5 class=" title card-title">LHD build c quoi?</h5>
+                          <p class="txt card-text">
+                              Le Local Hack Day: Build 2021 est une compétition en ligne organiser par MLH, elle consistera en des challenges hebdomadaires et journaliers à résoudre qui rapporteront des points aux participants, en remplissant certaine conditions vous pourrait même gagner des swags. La compétition est prévu entre le 10 et 18 Janvier 2021 et vous y êtes le bienvenue.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-md-5">
+                        <img
+                          src="assets/img (9).png"
+                          alt="..."
+                          id="optionalstuff"
+                          style="text-align: center; height: 80%; width:100%; padding-top: 10%; padding-right: 5% ;"
+                        />
+                      </div>
+                    </div>
+                </div>
+                <!-- FIN PRESENTATION 1 -->
 
-            <div class="row" id="sec3">
+                 <!-- PRESENTATION 2 -->
+                 <div class="card mb-3 shadow" style="width: 100%; height: fit-content; max-height: 450px; overflow-y: scroll; overflow-x: hidden;">
+                    <div class="row g-0" style="padding-top: 2.5%;">
+                      <div class="col-lg-7 col-md-12">
+                        <div class="card-body" style="height: 100%; width: 100%;">
+                          <h5 class=" title card-title">L’apport d’Open Minds dans tous ça?</h5>
+                          <p class="txt card-text">
+                              Durant la compétition les participants sont encourager a rejoindre une guilde, mais qu’est donc une guide me diriez-vous? Une guilde est une communauté, un groupe de personnes qui participent a l’événement et résolve les challenges ensemble. <br>
+                              Open Minds Club participera en tant que guilde, et vous êtes tous inviter a nous rejoindre et nous aider a bâtir une belle communauté, Nous proposerons aussi des coaches pour vous aider tout au long de la semaine, ainsi que des formations/workshops pour vous munir du bagage nécessaire pour surmonter les challenges.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-md-5">
+                        <img
+                          src="assets/img (9).png"
+                          alt="..."
+                          id="optionalstuff"
+                          style="text-align: center; height: 80%; width:100%; padding-top: 10%; padding-right: 5% ;"
+                        />
+                      </div>
+                    </div>
+                </div>
+                <!-- FIN PRESENTATION 2 -->
+
+                 <!-- PRESENTATION 3 -->
+                 <div class="card mb-3 shadow" style="width: 100%; height: fit-content; max-height: 450px; overflow-y: scroll; overflow-x: hidden;">
+                    <div class="row g-0" style="padding-top: 2.5%;">
+                        <div class="col-lg-7 col-md-12">
+                        <div class="card-body" style="height: 100%; width: 100%;">
+                            <h5 class=" title card-title">Quels sont les prérequis pour participer?</h5>
+                            <p class="txt card-text">
+                                Que vous soyer expert en programmation ou un novice complet, vous pouvez venir! Les challenges proposer seront varier et accessible a tous les niveaux, et n’ayez crainte si vous êtes coincer et que vous avez besoins d’aide, vous pouvez toujours compter sur nos coaches et membres pour vous aider.
+                            </p>
+                        </div>
+                      </div>
+                      <div class="col-md-5">
+                        <img
+                          src="assets/img (9).png"
+                          alt="..."
+                          id="optionalstuff"
+                          style="text-align: center; height: 80%; width:100%; padding-top: 10%; padding-right: 5% ;"
+                        />
+                      </div>
+                    </div>
+                </div>
+                <!-- FIN PRESENTATION 3 -->
+            <!-- </div> -->
+
+
+            <div class="box" id="sec3"></div>
+
+
+            <div class="row" >
                 <div class="col">
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
@@ -167,12 +257,18 @@
                 </div>
             </div>
 
-            <div class="row top-buffer"></div>
-
-            <footer class="row">
-
-            </footer>
+            <div class="box"></div>
         </div>
+
+        <!-- RESPONSIVE bottom NAVBAR -->
+        <footer class="page-footer font-small bg-dark" style="border: #343a40 solid 3px; height: fit-content; padding-top: 1%;">
+            <div class="Row" style="text-align: center;">
+                <div class="col">
+                    <h5 class="text-uppercase txtbtm white-color">Local Hack Day</h5>
+                    <p class="text-uppercase txtbtm white-color">Organized by Open Minds Club, Hosted by MLH, 2021</p>
+                </div>
+            </div>
+        </footer>
 
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
