@@ -1,4 +1,14 @@
-body{
+.jumbotron {
+  color: white;
+  background-image: url("assets/lhdevent.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+body {
     background-color : #DEDEDE;
 }
 
@@ -198,4 +208,19 @@ h1{
 .mlh-site{
     color: #000;
     font-weight: bold;
+}
+
+img {
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.theimage{
+  object-fit: cover;
+  height:100%;
+  width:100%;
 }
