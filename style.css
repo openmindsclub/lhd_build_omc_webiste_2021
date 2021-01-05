@@ -1,3 +1,25 @@
+
+.introduction {
+    background-color: #FFFFFF;
+}
+
+
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.title{
+    font-family: 'Bungee', cursive;
+}
+
 .top-buffer {
-  margin-top:50px;
+    margin-top:50px;
+}
+
+.top-buffer-scp {
+    margin-top:100px;
+}
+
+.buffer {
+    margin-top:10px;
 }
