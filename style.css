@@ -51,6 +51,7 @@ h1{
 
 .img_sec2{
     height: auto;
+    width: 100%;
 }
 @media (max-width: 400px) {
     .body .txt{
