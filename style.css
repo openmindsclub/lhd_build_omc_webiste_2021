@@ -16,7 +16,7 @@ body {
 }
 
 
-.title, .txtbtm{
+.title{
     font-family: 'Bungee', cursive;
 }
 h1{
@@ -248,4 +248,13 @@ img {
     #hero {
         height: 10vh;
     }
+}
+
+.txtbtm {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.social-medias {
+    height: 30px;
+    width: 30px;
 }
