@@ -258,3 +258,7 @@ img {
     height: 30px;
     width: 30px;
 }
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  filter: invert(1);
+}
