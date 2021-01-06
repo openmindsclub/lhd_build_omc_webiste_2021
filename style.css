@@ -249,7 +249,7 @@ img {
     }
 }
 
-@media screen and (min-aspect-ratio: 19/10) {
+@media screen and (min-aspect-ratio: 21/10) {
     #hero video {
       display: none;
     }
