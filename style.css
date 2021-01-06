@@ -35,7 +35,6 @@ nav ul {
     padding: 0;
     text-align: center;
     margin: 0;
-    padding-right: 40px;
     transition: 1s;
 }
 
@@ -102,6 +101,16 @@ nav.black ul li a:hover{
           padding: 24px;
           text-align: center;
     }
+    nav ul li a {
+        font-family: 'Bungee', cursive;
+        text-decoration: none !important;
+        color: #fff;
+        font-size: 18px;
+    } 
+    nav ul li a:hover{
+        color: rgb(231, 22, 57);
+    }
+    
 
     .menu-icon {
           display: block;
@@ -166,7 +175,7 @@ h1{
 ;
 }
 
-.card .mb-3 .shadow{
+.boxes{
     width: 100%; 
     height: fit-content; 
     max-height: 450px; 
@@ -175,7 +184,7 @@ h1{
 }
 
 @media (max-width: 400px) {
-    .card .mb-3 .shadow{
+    .boxes{
         width: 100%; 
         height: fit-content; 
         max-height: 450px; 
